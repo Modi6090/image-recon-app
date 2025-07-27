@@ -65,10 +65,6 @@ Start the development server
 
 npm start
 
-Visit the app in your browser
-
-http://localhost:3000
-
 🔌 API Integration (Planned)
 This project is prepared for integrating APIs such as:
 
@@ -110,8 +106,6 @@ You are free to use, modify, and distribute it for personal or commercial purpos
 
 👨‍💻 Author
 Shubham Modi
-Email: your.email@example.com
-LinkedIn: https://linkedin.com/in/yourprofile
 
 🙌 Acknowledgements
 React Documentation
