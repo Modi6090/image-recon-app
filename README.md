@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+🧠 Guide Hub - Image Recognition Web App
+Guide Hub is a React-based frontend project that enables users to upload images for analysis. It sets the foundation for integrating powerful AI tools like Google Vision or Clarifai to extract insights from visual content. This application is perfect for developers looking to build AI-enhanced interfaces for educational, business, or personal use.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📸 What It Does
+Allows users to upload and preview images.
 
-## Available Scripts
+Prepares the UI for backend or API-driven image recognition.
 
-In the project directory, you can run:
+Offers a clean and responsive layout using React.
 
-### `npm start`
+Lays the groundwork for AI-powered features like object detection, face recognition, OCR, or image tagging.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Features
+Image upload and real-time preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Built using modern React with Hooks and Components
 
-### `npm test`
+Responsive design with clean code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Modular structure for easy scaling
 
-### `npm run build`
+Ready for integration with APIs (Google Vision, Clarifai, etc.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧰 Tech Stack
+React.js (Frontend Library)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HTML5, CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript (ES6+)
 
-### `npm run eject`
+npm (Node Package Manager)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Git & GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📁 Project Structure
+image-recon-app-master/
+├── public/
+│   └── index.html (main HTML template)
+├── src/
+│   ├── App.js (main app logic)
+│   ├── App.css (component styling)
+│   ├── index.js (entry point for ReactDOM)
+│   └── index.css (global styles)
+├── .gitignore
+├── package.json (project metadata and dependencies)
+├── package-lock.json
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 How to Run the App
+Install Node.js (v16 or higher recommended) from https://nodejs.org
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository
 
-## Learn More
+git clone https://github.com/your-username/image-recon-app.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Navigate into the project folder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd image-recon-app
 
-### Code Splitting
+Install all dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
+Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm start
 
-### Making a Progressive Web App
+Visit the app in your browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+http://localhost:3000
 
-### Advanced Configuration
+🔌 API Integration (Planned)
+This project is prepared for integrating APIs such as:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Google Cloud Vision (for object or text recognition)
 
-### Deployment
+Clarifai (for tag-based image insights)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tesseract.js (for OCR)
 
-### `npm run build` fails to minify
+Any custom ML API (Flask/FastAPI)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Example integration steps will be added once the API is connected.
+
+🛠 Building for Production
+To build the app for deployment, run:
+
+npm run build
+
+This will generate optimized static files inside the build directory.
+
+🤝 Contributing
+We welcome contributions! Here's how to get started:
+
+Fork the repository
+
+Create a new branch for your feature or bug fix
+
+Commit your changes with clear messages
+
+Push to your forked branch
+
+Create a pull request to the main repository
+
+Issues and improvements are also welcome in the Issues tab.
+
+📄 License
+This project is open-source and licensed under the MIT License.
+You are free to use, modify, and distribute it for personal or commercial purposes.
+
+👨‍💻 Author
+Shubham Modi
+Email: your.email@example.com
+LinkedIn: https://linkedin.com/in/yourprofile
+
+🙌 Acknowledgements
+React Documentation
+
+Google Vision API Docs
+
+Clarifai API Docs
+
+Open-source tools and the developer community
